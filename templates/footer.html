@@ -1,6 +1,8 @@
 <footer class="footer">
-    <p>&copy; {{ SITENAME }} &ndash;
-        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
-        for <a href="http://blog.getpelican.com/">Pelican</a>
+    <p>
+        &copy; {{ SITENAME }}
+    {% for title, link in FOOTER_LINKS %}
+        &ndash; <a href="{{ link }}">{{ title }}</a>
+    {% endfor %}
     </p>
 </footer>

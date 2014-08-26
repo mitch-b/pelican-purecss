@@ -1,5 +1,7 @@
-Pure
-====
+PureCSS Theme for Pelican
+=========================
+
+forked from [PurePelican](https://github.com/PurePelicanTheme/pure)
 
 [Collaborative blogging theme](http://purepelican.com) based on [Purecss](http:purecss.io) for [Pelican](http://docs.getpelican.com/) blogs.
 Theme is responsive.
@@ -21,6 +23,9 @@ Theme is responsive.
     ```
     where the first value of the tuple is the icon name from http://fontawesome.io/icons/ after stripping `fa-` (eg. `fa-github` will be `github`)
 
+* `FOOTER_LINKS` - Set any links you want in the footer. Mimics `SOCIAL` format.
+* `ABOUT_AUTHOR` - If an article doesn't contain a unique `about_author` metadata, use global value.
+
 
 ## Article metadata:
 * `about_author` - short summary about author displayed under gravatar
@@ -34,7 +39,7 @@ Theme is responsive.
 
 ![Pure preview](http://i.imgur.com/RkYxMIl.png)
 
-See it live at [testpy.org](http://testpy.org/)
+See it live at [mitchbarry.com](http://mitchbarry.com/)
 
 ## Aditional features
 * [FitVids](https://github.com/davatron5000/FitVids.js) jQuery plugin for fluid width video embeds.
