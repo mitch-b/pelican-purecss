@@ -30,6 +30,7 @@ Theme is responsive.
 ## Article metadata:
 * `about_author` - short summary about author displayed under gravatar
 * `email` - display author's gravar on article. See [gravatar pelican plugin](https://github.com/getpelican/pelican-plugins/tree/master/gravatar)
+* `comments` - defaults to showing comments, you can optionally state `Comments: off` to disable comments on an article.
 
 ## PREVIEW
 
